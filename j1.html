@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        li{
+            float: left;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">contact us</a></li>
+        <li><a href="">about us</a></li>
+    </ul><br><br>
+</nav><br><br>
+    <table width="1000px" border="1px" align="center">
+        <tr>
+            <td>photo</td>
+            <td>select</td>
+        </tr>
+        <tr>
+            <td><img src="/img.png" alt=""></td>
+            <td><select name="" id="">
+                <option value="">js</option>
+                <option value="">java</option>
+                <option value="">react js</option>
+                <option value="">node js</option>
+            </select></td>
+        </tr>
+    </table>
+    <center>
+<button id="btn">submit</button>
+</center>
+<script>
+    var x=document.getElementById("btn");
+    x.onclick=display;
+    function display()
+    {
+        alert ("data entered");
+    }
+</script>
+</body>
+</html>
